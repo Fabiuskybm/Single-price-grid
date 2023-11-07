@@ -228,6 +228,7 @@ body {
     .subscription {
         grid-area: subscription;
         border-radius: 0 0 0 10px;
+        border: 0;
     }
 
     .subscription-header {
