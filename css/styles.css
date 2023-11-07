@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+
+    /* Prymary */
+
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyan2: hsl(179.48,47.15%,51.76%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --white: #ffffff;
+
+    /* Neutral */
+
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+
+/* GENERAL CONFIGURATION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: var(--Light-Gray);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexbox {
+    width: 28.5rem;
+    height: 22rem;
+}
+
+.content {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+/* COMMUNITY BOX DESIGN */
+
+.community {
+    background-color: var(--white);
+}
+
+.community-header {
+    color: var(--Cyan);
+    font-size: 1.6rem;
+}
+
+.guarantee {
+    color: var(--Bright-Yellow);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.access {
+    color: var(--Grayish-Blue);
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    width: 25rem;
+}
+
+
+/* SUBSCRIPTION BOX DESIGN */
+
+.subscription {
+    background-color: var(--Cyan);
+    height: 19rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.subscription-text {
+    color: var(--white);
+}
+
+.subscription-header {
+    font-size: 1.3rem;
+}
+
+.month-price {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.month-price h5 {
+    font-size: 2.5rem;
+}
+
+.month-price p {
+    color: var(--Light-Gray);
+    margin-left: 1rem;
+}
+
+.price p {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--Bright-Yellow);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+}
+
+
+/* WHY US BOX DESIGN */
+
+.why-us {
+    background-color: var(--Cyan2);
+}
